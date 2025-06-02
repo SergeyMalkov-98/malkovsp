@@ -1,0 +1,6 @@
+﻿@use "~/assets/icons/style" with ($icomoon-font-path: '~/assets/icons');
+
+i {
+  font-size: var(--icon-size);
+  color: var(--icon-color);
+}

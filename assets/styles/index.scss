@@ -1,0 +1,39 @@
+@use "colors" as *;
+@use "icons" as *;
+@use "visibility" as *;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.app-container {
+  box-sizing: border-box;
+
+  margin: 0 auto;
+
+  width: 100%;
+  max-width: var(--container-width, 700px);
+  padding: var(--container-padding, 0 24px);
+}

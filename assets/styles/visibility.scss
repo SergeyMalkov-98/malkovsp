@@ -1,0 +1,69 @@
+@use "media" as *;
+
+.small-device-only {
+  @include small-device-up {
+    display: none !important;
+  }
+}
+
+.small-device-up {
+  @include small-device {
+    display: none !important;
+  }
+}
+
+.mobile-only {
+  @include mobile-up {
+    display: none !important;
+  }
+}
+
+.mobile-up {
+  @include mobile-only {
+    display: none !important;
+  }
+}
+
+.tablet-only {
+  @include mobile-only {
+    display: none !important;
+  }
+
+  @include desktop-only {
+    display: none !important;
+  }
+}
+
+.tablet-up {
+  @include to-desktop {
+    display: none !important;
+  }
+}
+
+.to-desktop {
+  @include tablet-up {
+    display: none !important;
+  }
+}
+
+.desktop-only {
+  @include to-desktop {
+    display: none !important;
+  }
+
+  @include desktop-lg-only {
+    display: none !important;
+  }
+}
+
+.to-desktop-lg {
+  @include desktop-lg-only {
+    display: none !important;
+  }
+}
+
+.desktop-lg-only {
+  @include to-desktop-lg {
+    display: none !important;
+  }
+}
