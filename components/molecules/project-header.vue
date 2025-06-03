@@ -5,7 +5,7 @@
       class="project-header__img"
       width="48"
       height="48"
-      alt="Иконка проекта"
+      :alt="`Логотип прокта - ${title}`"
     />
     <div class="project-header__wrapper">
       <div class="project-header__titles">

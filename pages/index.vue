@@ -1,7 +1,7 @@
 <template>
   <div class="index-page">
     <Head>
-      <Title>MalkovSP</Title>
+      <Title>malkovsp</Title>
     </Head>
 
     <profile-info />

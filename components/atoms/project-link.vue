@@ -1,5 +1,5 @@
 <template>
-  <a class="project-link" :href="href" v-bind="$attrs">
+  <a class="project-link" v-bind="$attrs">
     <i :class="`icon-${icon} project-link__icon`" />
     <div class="project-link__wrapper">
       <span class="project-link__label">
